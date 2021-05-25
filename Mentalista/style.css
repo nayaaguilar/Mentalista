@@ -1,0 +1,110 @@
+p{
+    color: #4bcffa;
+    padding: 10px;
+    margin: auto 5px auto;
+    background-color: white;
+    border-radius: 7px;
+    opacity: 90%;
+  }
+  
+  body{
+      font-family: 'Roboto Mono',monospace;
+      min-height: 700px;
+      background-image: url('https://miro.medium.com/max/3144/1*rF8ua6bPYwi2IGW6HJsdWw.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .container {
+      text-align: center;
+      padding: 20px;
+      height: 0vh;
+    }
+  .page-title {
+      color: #ffffff;
+      margin: 0 0 5px;
+    }
+    .page-logo {
+      width: 200px;
+    }
+  .main, .main2{
+      width: 40%;
+      min-height: 300px;
+      background: transparent;
+      border-radius: 7px;
+      margin: 100px auto 0 auto;
+      text-align: center;
+      padding-top: 150px;
+  }
+  input{
+      margin-top: 70px;
+      box-sizing: border-box;
+      padding-left: 10px;
+      width: 40%;
+      height: 40px;
+      background: white;
+      border-radius: 7px;
+      color: black;
+      border: none;
+      outline: none;
+      font-family: "Poppins", sans-serif;
+      font-size: 13px;
+  }
+  
+  input::placeholder {
+      color: black;
+  }
+  button{
+      margin-top: 25px;
+      cursor: pointer;
+      background: linear-gradient(360deg, #a29bfe 0%, #74b9ff 100%);
+      border-radius: 5px;
+      border: none;
+      color: white;
+      height: 40px;
+      font-weight: bold;
+      font-size: 16px;
+      outline: none;
+      width: 40%;
+  }
+   
+  .acerto, .erro{
+      margin-top: 10px;
+      display:none;
+  }
+  
+  .acerto{
+      color: #4bcffa;
+      background-color: white;
+      opacity:95%;
+      border-radius: 7px;
+      text-align: center; 
+      position: center;
+      
+  }
+  .erro{
+      color:#cd84f1;
+      background-color: white;
+      opacity:95%;
+      border-radius: 7px;
+      text-align: center;
+      position: center;
+  }
+    #play_again{
+      display: none;
+      margin-top: 0;
+  }
+    @media (max-width: 1200px){
+      .main, .main2{
+          width: 55%;
+  }
+  
+  @media (max-width: 768px){
+      .main, .main2{
+          width: 65%;
+  }
+  @media (max-width: 500px){
+      button{
+          font-size: 12px;
+          height: 40px;
+        }
